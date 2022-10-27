@@ -8,9 +8,7 @@
 ###############################################################
 */
 module user_proj_example_SNPS_CLOCK_GATE_HIGH_WB_INTF_WB_WID32_NOC_WID16_0 (
-    vccd1,
-    vssd1,
-	EN, 
+	EN,
 	TE, 
 	ENCLK, 
 	ENCLK_clone1, 
@@ -20,8 +18,6 @@ module user_proj_example_SNPS_CLOCK_GATE_HIGH_WB_INTF_WB_WID32_NOC_WID16_0 (
 	ENCLK_clone5, 
 	ENCLK_clone6, 
 	CLK);
-   input vccd1;
-   input vssd1;
    input EN;
    input TE;
    output ENCLK;
@@ -18045,6 +18041,8 @@ module user_proj_example_Top_0 (
 endmodule
 
 module user_proj_example (
+    vccd1,
+    vssd1,
 	wb_clk_i, 
 	wb_rst_i, 
 	wbs_stb_i, 
@@ -18064,6 +18062,8 @@ module user_proj_example (
 	analog_io, 
 	user_clock2, 
 	user_irq);
+   input vccd1;
+   input vssd1;
    input wb_clk_i;
    input wb_rst_i;
    input wbs_stb_i;
