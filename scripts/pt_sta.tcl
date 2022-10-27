@@ -14,7 +14,7 @@ if {\
       $::env(PDK_ROOT)/$::env(PDK)/libs.ref/sky130_fd_io/lib/sky130_ef_io__vssd_lvc_clamped3_pad_tt_025C_1v80_3v30.lib \
       $::env(PDK_ROOT)/$::env(PDK)/libs.ref/sky130_fd_io/lib/sky130_ef_io__vccd_lvc_clamped3_pad_tt_025C_1v80_3v30_3v30.lib \
       $::env(PDK_ROOT)/$::env(PDK)/libs.ref/sky130_fd_io/lib/sky130_ef_io__vssd_lvc_clamped_pad_tt_025C_1v80_3v30.lib \
-      $::env(UPRJ_ROOT)/lib/user_project_wrapper.lib \
+      $::env(UPRJ_ROOT)/lib/user_proj_example.lib \
       "
     } elseif {$::env(PROC_CORNER) == "f"} {
       set link_path "* $::env(PT_LIB_ROOT)/scs130hd_ff_1.95v_-40C.lib \
@@ -28,6 +28,7 @@ if {\
       $::env(PDK_ROOT)/$::env(PDK)/libs.ref/sky130_fd_io/lib/sky130_ef_io__vssd_lvc_clamped3_pad_ff_n40C_1v95_5v50.lib \
       $::env(PDK_ROOT)/$::env(PDK)/libs.ref/sky130_fd_io/lib/sky130_ef_io__vccd_lvc_clamped3_pad_ff_n40C_1v95_5v50_5v50.lib \
       $::env(PDK_ROOT)/$::env(PDK)/libs.ref/sky130_fd_io/lib/sky130_ef_io__vssd_lvc_clamped_pad_ff_n40C_1v95_5v50.lib \
+      $::env(UPRJ_ROOT)/lib/user_proj_example.lib \
       "
     } elseif {$::env(PROC_CORNER) == "s"} {
       set link_path "* $::env(PT_LIB_ROOT)/scs130hd_ss_1.40v_100C.lib \
@@ -40,6 +41,7 @@ if {\
       $::env(PDK_ROOT)/$::env(PDK)/libs.ref/sky130_fd_io/lib/sky130_ef_io__vssd_lvc_clamped3_pad_ss_100C_1v60_3v00.lib \
       $::env(PDK_ROOT)/$::env(PDK)/libs.ref/sky130_fd_io/lib/sky130_ef_io__vccd_lvc_clamped3_pad_ss_100C_1v60_3v00_3v00.lib \
       $::env(PDK_ROOT)/$::env(PDK)/libs.ref/sky130_fd_io/lib/sky130_ef_io__vssd_lvc_clamped_pad_ss_100C_1v60_3v00.lib \
+      $::env(UPRJ_ROOT)/lib/user_proj_example.lib \
       "
     }
 
@@ -68,7 +70,7 @@ if {\
     proc read_spefs {design rc_corner} {
       if {$design == "caravel"} {
         set spef_mapping(flash_clkrst_buffers)                     $::env(CARAVEL_ROOT)/signoff/buff_flash_clkrst/openlane-signoff/buff_flash_clkrst.${rc_corner}.spef
-        #set spef_mapping(mprj)                                     $::env(UPRJ_ROOT)/spef/user_project_wrapper.spef
+        set spef_mapping(mprj)                                     $::env(UPRJ_ROOT)/spef/user_project_wrapper.spef
        
         # add your module name instantiated in user_project_wrapper here
         #set spef_mapping(mprj/mprj)                   		   $::env(UPRJ_ROOT)/spef/user_proj_example.spef
