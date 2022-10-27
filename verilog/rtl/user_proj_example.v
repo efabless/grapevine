@@ -1567,10 +1567,8 @@ endmodule
 module user_proj_example #(
     parameter BITS = 32
 ) (
-`ifdef USE_POWER_PINS
     inout vccd1,    // User area 1 1.8V supply
     inout vssd1,    // User area 1 digital ground
-`endif
 
     // Wishbone Slave ports (WB MI A)
     input wire wb_clk_i,
