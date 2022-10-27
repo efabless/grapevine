@@ -1561,15 +1561,12 @@ module Top (
         .tx_pa(rrrrrr_txa)
     );
 endmodule
-`default_nettype none
-`define MPRJ_IO_PADS 38
 
 module user_proj_example #(
     parameter BITS = 32
 ) (
-    inout vccd1,    // User area 1 1.8V supply
-    inout vssd1,    // User area 1 digital ground
-
+    inout vccd1,
+    inout vssd1,
     // Wishbone Slave ports (WB MI A)
     input wire wb_clk_i,
     input wire wb_rst_i,
