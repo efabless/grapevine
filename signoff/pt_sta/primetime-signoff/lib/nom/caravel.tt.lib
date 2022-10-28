@@ -4,7 +4,7 @@ library("caravel.tt") {
   technology (cmos) ;
   delay_model : table_lookup ;
   library_features ( report_delay_calculation ) ;
-  date : "Wed Oct 26 19:41:43 2022" ;
+  date : "Thu Oct 27 23:31:19 2022" ;
   revision : "T-2022.03-SP3" ;
   nom_process : 1.0000 ;
   nom_voltage : 1.8000 ;
@@ -89,7 +89,7 @@ type ( BUS38_type0 ) {
 } /* end of type */
 
 cell( caravel ) {
-  area : 1955120.625000 ;
+  area : 1957144.125000 ;
   dont_use : true ;
   dont_touch : true ;
   interface_timing : true;

@@ -5451,9 +5451,9 @@ Warning: Line 7369, Cell 'user_proj_example', pin 'wbs_dat_o[0]', There is an ex
 	'wbs_dat_o[0]' pins in the 'user_proj_example' cell. (LBDB-75)
 Technology library 'user_proj_example' read successfully
 Loading verilog file '/home/jeffdi/stanford/caravel/mgmt_core_wrapper/verilog/gl/RAM128.v'
-Loading db file '/home/jeffdi/stanford/pt_libs/scs130hd_tt_1.80v_25C.lib'
 Loading verilog file '/home/jeffdi/stanford/caravel/mgmt_core_wrapper/verilog/gl/mgmt_core_wrapper.v'
 Loading verilog file '/home/jeffdi/stanford/caravel/mgmt_core_wrapper/verilog/gl/RAM256.v'
+Loading db file '/home/jeffdi/stanford/pt_libs/scs130hd_tt_1.80v_25C.lib'
 Loading verilog file '/home/jeffdi/stanford/caravel/verilog/gl/mgmt_protect.v'
 Loading verilog file '/home/jeffdi/stanford/caravel/verilog/gl/housekeeping.v'
 Loading verilog file '/home/jeffdi/stanford/grapevine/verilog/gl/user_proj_example.v'
@@ -5470,9 +5470,9 @@ Loading verilog file '/home/jeffdi/stanford/caravel/verilog/gl/mprj_logic_high.v
 Loading verilog file '/home/jeffdi/stanford/caravel/verilog/gl/gpio_signal_buffering.v'
 Loading verilog file '/home/jeffdi/stanford/caravel/verilog/gl/gpio_control_block.v'
 Loading verilog file '/home/jeffdi/stanford/caravel/verilog/gl/gpio_signal_buffering_alt.v'
+Loading verilog file '/home/jeffdi/stanford/caravel/verilog/gl/spare_logic_block.v'
 Error: Expected '(' but found '['
 	at line 1046 in '/home/jeffdi/stanford/caravel/verilog/gl/gpio_signal_buffering_alt.v'. (SVR-4)
-Loading verilog file '/home/jeffdi/stanford/caravel/verilog/gl/spare_logic_block.v'
 Loading verilog file '/home/jeffdi/stanford/caravel/verilog/gl/user_id_programming.v'
 Loading verilog file '/home/jeffdi/stanford/grapevine/verilog/gl/user_project_wrapper.v'
 Loading verilog file '/home/jeffdi/stanford/caravel/verilog/gl/buff_flash_clkrst.v'
@@ -5482,38 +5482,38 @@ Loading verilog file '/home/jeffdi/stanford/caravel/verilog/gl/gpio_defaults_blo
 Loading verilog file '/home/jeffdi/stanford/caravel/verilog/gl/gpio_defaults_block.v'
 Loading verilog file '/home/jeffdi/stanford/caravel/verilog/gl/mprj2_logic_high.v'
 Loading verilog file '/home/jeffdi/stanford/caravel/verilog/gl/__user_analog_project_wrapper.v'
-Loading verilog file '/home/jeffdi/stanford/caravel/verilog/gl/__user_project_wrapper.v'
 Error: Expected ',' or ')' but found 'U'
 	at line 29 in '/home/jeffdi/stanford/caravel/verilog/gl/__user_analog_project_wrapper.v'. (SVR-4)
+Loading verilog file '/home/jeffdi/stanford/caravel/verilog/gl/__user_project_wrapper.v'
+Loading verilog file '/home/jeffdi/stanford/caravel/verilog/gl/gpio_logic_high.v'
 Error: Expected '(' but found '#'
 	at line 32 in '/home/jeffdi/stanford/caravel/verilog/gl/__user_project_wrapper.v'. (SVR-4)
-Loading verilog file '/home/jeffdi/stanford/caravel/verilog/gl/gpio_logic_high.v'
 Loading verilog file '/home/jeffdi/stanford/caravel/verilog/gl/xres_buf.v'
 Loading verilog file '/home/jeffdi/stanford/caravel/verilog/gl/constant_block.v'
 Loading verilog file '/home/jeffdi/stanford/caravel/verilog/gl/mgmt_protect_hv.v'
-Loading db file '/tmp/_pt1rbeb0YO/1.db'
+Loading db file '/tmp/_pt1rkC9N3y/1.db'
 Loading db file '/home/jeffdi/stanford/pt_libs/scs130hvl_tt_3.3v_25C.lib'
-Loading db file '/tmp/_pt1rHCmaKV/1.db'
+Loading db file '/tmp/_pt1rcbGjIP/1.db'
 Loading db file '/home/jeffdi/stanford/pt_libs/scs130hvl_tt_3.3v_lowhv_3.3v_lv_1.8v_25C.lib'
-Loading db file '/tmp/_pt1rbgxhLh/1.db'
+Loading db file '/tmp/_pt1rqvjGTl/1.db'
 Loading db file '/home/jeffdi/stanford/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_fd_io__top_xres4v2_tt_tt_025C_1v80_3v30.lib'
-Loading db file '/tmp/_pt1r5UJ7mJ/1.db'
+Loading db file '/tmp/_pt1rINahJX/1.db'
 Loading db file '/home/jeffdi/stanford/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__gpiov2_pad_tt_tt_025C_1v80_3v30.lib'
-Loading db file '/tmp/_pt1rXJPdTe/1.db'
+Loading db file '/tmp/_pt1rkBtItD/1.db'
 Loading db file '/home/jeffdi/stanford/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vccd_lvc_clamped_pad_tt_025C_1v80_3v30_3v30.lib'
-Loading db file '/tmp/_pt1r3tQkCO/1.db'
+Loading db file '/tmp/_pt1rC4HAsn/1.db'
 Loading db file '/home/jeffdi/stanford/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vdda_hvc_clamped_pad_tt_025C_1v80_3v30_3v30.lib'
-Loading db file '/tmp/_pt1rrhTvhs/1.db'
+Loading db file '/tmp/_pt1r09exrb/1.db'
 Loading db file '/home/jeffdi/stanford/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vssa_hvc_clamped_pad_tt_025C_1v80_3v30_3v30.lib'
-Loading db file '/tmp/_pt1rVfxQE9/1.db'
+Loading db file '/tmp/_pt1r2uP692/1.db'
 Loading db file '/home/jeffdi/stanford/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vssd_lvc_clamped3_pad_tt_025C_1v80_3v30.lib'
-Loading db file '/tmp/_pt1rpITsKU/1.db'
+Loading db file '/tmp/_pt1rEUSJAY/1.db'
 Loading db file '/home/jeffdi/stanford/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vccd_lvc_clamped3_pad_tt_025C_1v80_3v30_3v30.lib'
-Loading db file '/tmp/_pt1rnmdPyJ/1.db'
+Loading db file '/tmp/_pt1rcMYIKX/1.db'
 Loading db file '/home/jeffdi/stanford/pdks/sky130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vssd_lvc_clamped_pad_tt_025C_1v80_3v30.lib'
-Loading db file '/tmp/_pt1rh3BZ5B/1.db'
+Loading db file '/tmp/_pt1revIuD0/1.db'
 Loading db file '/home/jeffdi/stanford/grapevine/lib/user_proj_example.lib'
-Loading db file '/tmp/_pt1rTzKWky/1.db'
+Loading db file '/tmp/_pt1r09z4e7/1.db'
 Warning: Ignoring caravel in verilog file /home/jeffdi/stanford/caravel/verilog/gl/caravel.v, as another module with same name is read already. (LNK-067)
 Warning: Ignoring caravan in verilog file /home/jeffdi/stanford/caravel/verilog/gl/caravan.v, as another module with same name is read already. (LNK-067)
 Warning: Ignoring caravel in verilog file /home/jeffdi/stanford/caravel/verilog/gl/caravel-signoff.v, as another module with same name is read already. (LNK-067)
@@ -5678,7 +5678,7 @@ Information: Creating black box for gpio_control_in_2[8]/FILLER_3_99/sky130_fd_s
 Information: Creating black box for gpio_control_in_2[8]/FILLER_0_95/sky130_fd_sc_hd__fill_1... (LNK-043)
 Information: Creating black box for gpio_control_in_2[8]/FILLER_17_99/sky130_fd_sc_hd__fill_1... (LNK-043)
 Information: Creating black box for gpio_control_in_2[8]/FILLER_13_99/sky130_fd_sc_hd__fill_1... (LNK-043)
-Removed 246362 unconnected cells and blackboxes.
+Removed 246275 unconnected cells and blackboxes.
 Information: Removing 79 unneeded designs..... (LNK-034)
 Information: Module 'gpio_defaults_block_1803' in file '/home/jeffdi/stanford/caravel/verilog/gl/gpio_defaults_block_1803.v' is not used in the current design.  (LNK-039)
 Information: Module 'chip_io_alt' in file '/home/jeffdi/stanford/caravel/verilog/gl/chip_io_alt.v' is not used in the current design.  (LNK-039)
@@ -5690,7 +5690,7 @@ Information: Module 'caravan' in file '/home/jeffdi/stanford/caravel/verilog/gl/
 Information: Module 'caravel' in file '/home/jeffdi/stanford/caravel/verilog/gl/caravel-signoff.v' is not used in the current design.  (LNK-039)
 Warning: Some timing arcs have been disabled for breaking timing loops or because of constant propagation. Use the 'report_disable_timing' command to get the list of these disabled timing arcs. (PTE-003)
 Design 'caravel' was successfully linked.
-Information: There are 124767 leaf cells, ports, hiers and 81819 nets in the design (LNK-047)
+Information: There are 124879 leaf cells, ports, hiers and 81922 nets in the design (LNK-047)
 
 Reading SDC version 2.1...
 [INFO]: Setting output delay to: 4
@@ -5722,10 +5722,10 @@ Warning: Some timing arcs have been disabled for breaking timing loops or becaus
 Warning: Conflicted logic driving pin padframe/flash_io1_pad/DM[0], setting resolved logic value 0 on pin padframe/flash_io1_pad/DM[0]. (PTE-042)
 Warning: Conflicted logic driving pin padframe/flash_io1_pad/DM[1], setting resolved logic value 1 on pin padframe/flash_io1_pad/DM[1]. (PTE-042)
 Warning: Conflicted logic driving pin padframe/flash_io1_pad/DM[2], setting resolved logic value 1 on pin padframe/flash_io1_pad/DM[2]. (PTE-042)
-Warning: No clock-gating check is inferred for clock clk at pins clock_ctrl/_205_/A1 and clock_ctrl/_205_/A0 of cell clock_ctrl/_205_. (PTE-060)
-Warning: No clock-gating check is inferred for clock clk at pins clock_ctrl/_205_/S and clock_ctrl/_205_/A0 of cell clock_ctrl/_205_. (PTE-060)
 Warning: No clock-gating check is inferred for clock clk at pins clock_ctrl/_206_/A1 and clock_ctrl/_206_/A0 of cell clock_ctrl/_206_. (PTE-060)
 Warning: No clock-gating check is inferred for clock clk at pins clock_ctrl/_206_/S and clock_ctrl/_206_/A0 of cell clock_ctrl/_206_. (PTE-060)
+Warning: No clock-gating check is inferred for clock clk at pins clock_ctrl/_205_/A1 and clock_ctrl/_205_/A0 of cell clock_ctrl/_205_. (PTE-060)
+Warning: No clock-gating check is inferred for clock clk at pins clock_ctrl/_205_/S and clock_ctrl/_205_/A0 of cell clock_ctrl/_205_. (PTE-060)
 Warning: The drive-resistance for the timing arc (sky130_fd_sc_hd__tt_1.80v_25C/sky130_fd_sc_hd__buf_12) soc/wire1964/A-->X (min rising & falling positive_unate) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
 Warning: The drive-resistance for the timing arc (sky130_fd_sc_hd__tt_1.80v_25C/sky130_fd_sc_hd__buf_12) soc/wire1964/A-->X (max rising & falling positive_unate) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
 Warning: The drive-resistance for the timing arc (sky130_fd_sc_hd__tt_1.80v_25C/sky130_fd_sc_hd__buf_12) soc/fanout1676/A-->X (min rising & falling positive_unate) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
@@ -5771,8 +5771,8 @@ Warning: The drive-resistance for the timing arc (sky130_fd_sc_hd__tt_1.80v_25C/
 Warning: The drive-resistance for the timing arc (sky130_fd_sc_hd__tt_1.80v_25C/sky130_fd_sc_hd__buf_12) soc/wire1384/A-->X (min rising & falling positive_unate) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
 Warning: The drive-resistance for the timing arc (sky130_fd_sc_hd__tt_1.80v_25C/sky130_fd_sc_hd__buf_12) soc/wire1384/A-->X (max rising & falling positive_unate) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
 Warning: The drive-resistance for the timing arc (sky130_fd_sc_hd__tt_1.80v_25C/sky130_fd_sc_hd__buf_12) soc/wire1385/A-->X (min rising & falling positive_unate) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
-Warning: The drive-resistance for the timing arc (sky130_fd_sc_hd__tt_1.80v_25C/sky130_fd_sc_hd__buf_12) soc/wire1385/A-->X (max rising & falling positive_unate) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
 Warning: The drive-resistance for the timing arc (sky130_fd_sc_hd__tt_1.80v_25C/sky130_fd_sc_hd__buf_12) soc/load_slew1387/A-->X (min rising & falling positive_unate) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
+Warning: The drive-resistance for the timing arc (sky130_fd_sc_hd__tt_1.80v_25C/sky130_fd_sc_hd__buf_12) soc/wire1385/A-->X (max rising & falling positive_unate) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
 Warning: The drive-resistance for the timing arc (sky130_fd_sc_hd__tt_1.80v_25C/sky130_fd_sc_hd__buf_12) soc/load_slew1387/A-->X (max rising & falling positive_unate) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
 Warning: The drive-resistance for the timing arc (sky130_fd_sc_hd__tt_1.80v_25C/sky130_fd_sc_hd__buf_12) soc/fanout1299/A-->X (min rising & falling positive_unate) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
 Warning: The drive-resistance for the timing arc (sky130_fd_sc_hd__tt_1.80v_25C/sky130_fd_sc_hd__buf_12) soc/fanout1299/A-->X (max rising & falling positive_unate) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
@@ -5790,7 +5790,7 @@ Warning: The drive-resistance for the timing arc (sky130_fd_sc_hd__tt_1.80v_25C/
 Report : write_sdf /home/jeffdi/stanford/grapevine/signoff/pt_sta/primetime-signoff/sdf/nom/caravel.tt.sdf
 Design : caravel
 Version: T-2022.03-SP3
-Date   : Wed Oct 26 19:41:42 2022
+Date   : Thu Oct 27 23:31:18 2022
 ****************************************
 
 Warning: The drive-resistance for the timing arc (sky130_fd_sc_hd__tt_1.80v_25C/sky130_fd_sc_hd__buf_12) soc/_32602_/A-->X (min rising & falling positive_unate) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
@@ -5802,11 +5802,11 @@ Warning: The drive-resistance for the timing arc (sky130_fd_sc_hd__tt_1.80v_25C/
 Warning: The drive-resistance for the timing arc (sky130_fd_sc_hd__tt_1.80v_25C/sky130_fd_sc_hd__buf_12) soc/wire1964/A-->X (min rising & falling positive_unate) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
 Warning: The drive-resistance for the timing arc (sky130_fd_sc_hd__tt_1.80v_25C/sky130_fd_sc_hd__buf_12) soc/wire1964/A-->X (max rising & falling positive_unate) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
 Information: For model extraction, min_period and min_pulse_width arcs are extracted at the context slew. (MEXT-105)
-Information: Elapsed time for model extraction: 2 seconds (MEXT-096)
+Information: Elapsed time for model extraction: 3 seconds (MEXT-096)
 Wrote the LIB file /home/jeffdi/stanford/grapevine/signoff/pt_sta/primetime-signoff/lib/nom/caravel.tt.lib
 Wrote model to '/home/jeffdi/stanford/grapevine/signoff/pt_sta/primetime-signoff/lib/nom/caravel.tt_lib.db'
 Wrote test design to '/home/jeffdi/stanford/grapevine/signoff/pt_sta/primetime-signoff/lib/nom/caravel.tt_test.db'
-Information: Elapsed time for lib file writing: 1 seconds (MEXT-096)
+Information: Elapsed time for lib file writing: 0 seconds (MEXT-096)
 Information: Defining new variable 'verilog'. (CMD-041)
 Suppressed Messages Summary:
 Id          Severity      Occurrences   Suppressed
@@ -5815,11 +5815,11 @@ PARA-124    Error               30595        30495
 PARA-006    Error                 967          867
 PARA-044    Error                 133           33
 DB-1        Error                  13           13
-PARA-040    Warning             79672        79235
-LNK-043     Information        191299       191199
+PARA-040    Warning             80267        79830
+LNK-043     Information        191023       190923
 SVR-2       Information             3            3
 Total 7 types of messages are suppressed
-Maximum memory usage for this session: 2905.94 MB
+Maximum memory usage for this session: 2906.05 MB
 CPU usage for this session: 78 seconds 
 Elapsed time for this session: 35 seconds
 Diagnostics summary: 8 errors, 156 warnings, 117 informationals
