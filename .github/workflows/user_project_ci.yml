@@ -65,7 +65,7 @@ jobs:
         run: echo "PDKPATH=/home/runner/work/pdk/sky130A" >> $GITHUB_ENV
 
       - name: Download PDK Tarball
-        uses: actions/download-artifact@v2
+        uses: actions/download-artifact@v4.1.7
         with:
           name: pdk-tarball
           path: /tmp
@@ -119,7 +119,7 @@ jobs:
         run: echo "OPENLANE_ROOT=/home/runner/work/caravel_user_project/openlane" >> $GITHUB_ENV
 
       - name: Download PDK Tarball
-        uses: actions/download-artifact@v2
+        uses: actions/download-artifact@v4.1.7
         with:
           name: pdk-tarball
           path: /tmp
